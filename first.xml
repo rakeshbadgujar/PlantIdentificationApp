@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll">
+
+    <GridLayout
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gd"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:id="@+id/about"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DR. XI"
+            android:id="@+id/drxi"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MORE"
+            android:id="@+id/more"/>
+    </GridLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/welcomepic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:text="Tamuk Biology Department"/>
+</LinearLayout>
